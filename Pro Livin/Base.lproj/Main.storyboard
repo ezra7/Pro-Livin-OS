@@ -133,7 +133,7 @@
         <!--Fourth-->
         <scene sceneID="xea-Mp-6ue">
             <objects>
-                <viewController id="avb-Xv-xq7" sceneMemberID="viewController">
+                <viewController id="avb-Xv-xq7" customClass="ProLivinScoreController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="yTD-UG-TEj"/>
                         <viewControllerLayoutGuide type="bottom" id="dbi-xa-o9i"/>
@@ -248,7 +248,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EWX-TA-RZ5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="748" y="1654"/>
+            <point key="canvasLocation" x="0.0" y="867"/>
         </scene>
     </scenes>
     <resources>

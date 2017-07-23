@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D70D225F1F24A8650021F392 /* ProLivinScoreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70D225E1F24A8650021F392 /* ProLivinScoreController.swift */; };
 		FE65BA3E1F248C9800340492 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE65BA3D1F248C9800340492 /* AppDelegate.swift */; };
 		FE65BA401F248C9800340492 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE65BA3F1F248C9800340492 /* FirstViewController.swift */; };
 		FE65BA421F248C9800340492 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE65BA411F248C9800340492 /* SecondViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D70D225E1F24A8650021F392 /* ProLivinScoreController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProLivinScoreController.swift; path = "Pro Livin/ProLivinScoreController.swift"; sourceTree = "<group>"; };
 		FE65BA3A1F248C9800340492 /* Pro Livin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pro Livin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE65BA3D1F248C9800340492 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE65BA3F1F248C9800340492 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 		FE65BA311F248C9800340492 = {
 			isa = PBXGroup;
 			children = (
+				D70D225E1F24A8650021F392 /* ProLivinScoreController.swift */,
 				FE65BA3C1F248C9800340492 /* Pro Livin */,
 				FE65BA531F248C9800340492 /* Pro LivinTests */,
 				FE65BA5E1F248C9800340492 /* Pro LivinUITests */,
@@ -267,6 +270,7 @@
 			files = (
 				FE65BA421F248C9800340492 /* SecondViewController.swift in Sources */,
 				FE65BA6E1F24A49400340492 /* LoginController.swift in Sources */,
+				D70D225F1F24A8650021F392 /* ProLivinScoreController.swift in Sources */,
 				FE65BA3E1F248C9800340492 /* AppDelegate.swift in Sources */,
 				FE65BA401F248C9800340492 /* FirstViewController.swift in Sources */,
 			);
@@ -515,6 +519,7 @@
 				FE65BA661F248C9800340492 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE65BA671F248C9800340492 /* Build configuration list for PBXNativeTarget "Pro LivinTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +528,7 @@
 				FE65BA691F248C9800340492 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE65BA6A1F248C9800340492 /* Build configuration list for PBXNativeTarget "Pro LivinUITests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +537,7 @@
 				FE65BA6C1F248C9800340492 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
