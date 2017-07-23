@@ -89,7 +89,7 @@
             </objects>
             <point key="canvasLocation" x="750" y="360"/>
         </scene>
-        <!--Item-->
+        <!--Third-->
         <scene sceneID="zy3-kY-B3g">
             <objects>
                 <viewController id="R9f-8S-jgc" sceneMemberID="viewController">
@@ -102,7 +102,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="TFL-fl-cMk"/>
+                    <tabBarItem key="tabBarItem" title="Third" image="first" id="TFL-fl-cMk"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ohu-4D-NO5" userLabel="First Responder" sceneMemberID="firstResponder"/>
