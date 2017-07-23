@@ -123,11 +123,31 @@
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
                         <segue destination="R9f-8S-jgc" kind="relationship" relationship="viewControllers" id="lJi-Cn-dli"/>
+                        <segue destination="avb-Xv-xq7" kind="relationship" relationship="viewControllers" id="T21-5s-Xkj"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+        <!--Fourth-->
+        <scene sceneID="xea-Mp-6ue">
+            <objects>
+                <viewController id="avb-Xv-xq7" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yTD-UG-TEj"/>
+                        <viewControllerLayoutGuide type="bottom" id="dbi-xa-o9i"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tOz-z6-gPK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Fourth" image="second" id="08z-kf-GJy"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EWX-TA-RZ5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
         </scene>
     </scenes>
     <resources>
