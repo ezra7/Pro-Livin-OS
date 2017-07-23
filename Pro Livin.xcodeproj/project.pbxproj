@@ -15,6 +15,7 @@
 		FE65BA4A1F248C9800340492 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE65BA481F248C9800340492 /* LaunchScreen.storyboard */; };
 		FE65BA551F248C9800340492 /* Pro_LivinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE65BA541F248C9800340492 /* Pro_LivinTests.swift */; };
 		FE65BA601F248C9800340492 /* Pro_LivinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE65BA5F1F248C9800340492 /* Pro_LivinUITests.swift */; };
+		FE65BA6E1F24A49400340492 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE65BA6D1F24A49400340492 /* LoginController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		FE65BA5B1F248C9800340492 /* Pro LivinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pro LivinUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE65BA5F1F248C9800340492 /* Pro_LivinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pro_LivinUITests.swift; sourceTree = "<group>"; };
 		FE65BA611F248C9800340492 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE65BA6D1F24A49400340492 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				FE65BA3D1F248C9800340492 /* AppDelegate.swift */,
 				FE65BA3F1F248C9800340492 /* FirstViewController.swift */,
 				FE65BA411F248C9800340492 /* SecondViewController.swift */,
+				FE65BA6D1F24A49400340492 /* LoginController.swift */,
 				FE65BA431F248C9800340492 /* Main.storyboard */,
 				FE65BA461F248C9800340492 /* Assets.xcassets */,
 				FE65BA481F248C9800340492 /* LaunchScreen.storyboard */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE65BA421F248C9800340492 /* SecondViewController.swift in Sources */,
+				FE65BA6E1F24A49400340492 /* LoginController.swift in Sources */,
 				FE65BA3E1F248C9800340492 /* AppDelegate.swift in Sources */,
 				FE65BA401F248C9800340492 /* FirstViewController.swift in Sources */,
 			);
