@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -112,7 +112,7 @@
         <!--Fourth-->
         <scene sceneID="xea-Mp-6ue">
             <objects>
-                <viewController id="avb-Xv-xq7" customClass="ProLivinScoreController" sceneMemberID="viewController">
+                <viewController id="avb-Xv-xq7" customClass="ProLivinScoreController" customModule="Pro_Livin" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="yTD-UG-TEj"/>
                         <viewControllerLayoutGuide type="bottom" id="dbi-xa-o9i"/>
@@ -133,7 +133,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="56" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qzM-tW-kIK">
-                                        <rect key="frame" x="275" y="0.0" width="107" height="54"/>
+                                        <rect key="frame" x="299" y="0.0" width="107" height="54"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="50"/>
                                         <color key="textColor" red="0.86823842005076146" green="0.12988048929701207" blue="0.0075013919944885233" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -148,6 +148,9 @@
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="22"/>
                                 <state key="normal" title="Get Score"/>
+                                <connections>
+                                    <action selector="getScore:" destination="avb-Xv-xq7" eventType="touchUpInside" id="ZpV-MG-3v2"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Max Bench (lbs)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YNg-7j-IVQ">
                                 <rect key="frame" x="11" y="192" width="185" height="33"/>
@@ -224,6 +227,14 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Fourth" image="second" id="08z-kf-GJy"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="benchInput" destination="0dx-y3-18S" id="OsX-kI-2Cq"/>
+                        <outlet property="cleanInput" destination="dHK-Iu-Uyj" id="EaK-WW-8gK"/>
+                        <outlet property="fortyInput" destination="esf-Dw-ouF" id="88c-iz-0LB"/>
+                        <outlet property="scoreLabel" destination="qzM-tW-kIK" id="POV-yg-8Xk"/>
+                        <outlet property="squatInput" destination="tFa-0d-7f7" id="1zT-l5-pd8"/>
+                        <outlet property="verticalInput" destination="whb-M1-MUz" id="omg-mh-1B8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EWX-TA-RZ5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

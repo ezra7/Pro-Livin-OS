@@ -10,6 +10,37 @@ import UIKit
 
 class ProLivinScoreController: UIViewController {
     
+    
+    @IBOutlet weak var scoreLabel: UILabel!
+    
+    @IBOutlet weak var benchInput: UITextField!
+    
+    @IBOutlet weak var squatInput: UITextField!
+    
+    @IBOutlet weak var fortyInput: UITextField!
+    
+    @IBOutlet weak var cleanInput: UITextField!
+    
+    @IBOutlet weak var verticalInput: UITextField!
+    
+    
+    
+    @IBAction func getScore(_ sender: Any) {
+        
+        var bench: String = benchInput.text!;
+        
+        
+        
+        
+        
+        
+        
+        scoreLabel.text = bench;
+    }
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
